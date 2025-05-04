@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: 100xdevs/todo-app-week-39:aa22c778224718c939e60b18b9b8a27cd8d1fe7f
+    image: 100xdevs/todo-app-week-39:54d61a156a8b5e0ce9b5e779e5ac529550fc4ce3
     ports:
     - containerPort: 80
