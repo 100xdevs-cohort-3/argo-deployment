@@ -5,17 +5,6 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: nginx
-    ports:
-    - containerPort: 80
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: httpd
-spec:
-  containers:
-  - name: httpd
-    image: httpd
+    image: 100xdevs/todo-app-week-39:aa22c778224718c939e60b18b9b8a27cd8d1fe7f
     ports:
     - containerPort: 80
